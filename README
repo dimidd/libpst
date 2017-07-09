@@ -12,3 +12,7 @@ Starting with a mercurial working directory, try this:
     (cd xml; make; make distclean)
     make distcheck
 
+If `./configure' is missing:
+    autoreconf --install
+    autoconf
+    ./configure
